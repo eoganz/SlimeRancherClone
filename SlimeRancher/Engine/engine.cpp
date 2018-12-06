@@ -47,6 +47,7 @@ bool Engine::Initialize()
 	glViewport(0, 0, width, height);
 	glMatrixMode(GL_3D);
 	glLoadIdentity();
+	
 	glOrtho(0, width, 0, height, -10, 10);
 	glDepthRange(-10, 10);
 	

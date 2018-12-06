@@ -11,6 +11,8 @@ int main()
 	Engine engine;
 	engine.Initialize();
 
+
+	//MAIN LOOP
 	while (true)
 	{
 		engine.Update();
